@@ -3,7 +3,7 @@
     "value": "eastus"
   },
   "vmName": {
-    "value": "jbosseap-rhel8-byos-vm4"
+    "value": "EAP72-RHEL8-BYOS-vm5"
   },
   "adminUsername": {
     "value": "demouser"
@@ -15,7 +15,7 @@
     "value": "demoPassword1!"
   },
   "vmSize": {
-    "value": "Standard_E2s_v3"
+    "value": "Standard_DS2_v2"
   },
   "virtualNetworkNewOrExisting": {
     "value": "new"
@@ -25,29 +25,29 @@
   },
   "addressPrefixes": {
     "value": [
-      "10.4.0.0/16"
+      "10.3.0.0/16"
     ]
   },
   "subnetName": {
     "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.4.0.0/24"
+    "value": "10.3.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP72-RHEL8-byos-Soln-Test-Rg4"
+    "value": "EAP72-RHEL8-byos-Soln-Test-Rg6"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "jbosseap-rhel8-byos-vm4-ip"
+    "value": "EAP72-RHEL8-BYOS-vm5-ip"
   },
   "publicIpDns": {
-    "value": "jbosseap-rhel8-byos-vm4-f8ee3a122c"
+    "value": "eap72-rhel8-byos-vm5-fa31a704ed"
   },
   "publicIpResourceGroupName": {
-    "value": "EAP72-RHEL8-byos-Soln-Test-Rg4"
+    "value": "EAP72-RHEL8-byos-Soln-Test-Rg6"
   },
   "publicIPAllocationMethod": {
     "value": "Dynamic"
@@ -56,10 +56,10 @@
     "value": "On"
   },
   "storageNewOrExisting": {
-    "value": "existing"
+    "value": "new"
   },
   "storageAccountName": {
-    "value": "jbosseapb2d56c88c4"
+    "value": "eap72rhef2137f58ee"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
