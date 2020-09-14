@@ -3,54 +3,57 @@
     "value": "westus2"
   },
   "vmName": {
-    "value": "jbosseap72-rhel8-byos-vm1"
+    "value": "eap72-rhel8-byos-soln-vm5"
   },
   "adminUsername": {
     "value": "demouser"
   },
   "authenticationType": {
-    "value": "sshPublicKey"
+    "value": "password"
   },
   "adminPasswordOrSSHKey": {
-    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsvQd8Ie4w+cl4irCajWjEnfoa+XQ+c0z7O/ruFEPbOD2Gt4tU9XwoPWVS1ehAziAg8qzKHEZ0gPvSAwIVFqXkxsI3cofl1U7/aU0ELipbc4u/gqj/gDn3WS9Y2w4iGU3/4ifPZYOL5nN9lGS2ixz3Xp7wX22/L8H2RdAKnQYKdS+eWYy/RCTvc1CAXphvEXEDFYp0m0KE9VxBSXNHsvdCI8DyUjQWvNRgKRQowUSAvwZBBH6YlXqQhyPCEDFfcriwTKZ9e56DzulIHjgm35Oucs7Mdx1L0+0/eoZ1CM5TxwfXec1YVGjz+9jgb8GGe+9H06yvFsjAUbJ70dj9UXIDw=="
+    "value": "demoPassword1!"
   },
   "vmSize": {
-    "value": "Standard_DS2_v2"
+    "value": "Standard_E2s_v4"
   },
   "virtualNetworkNewOrExisting": {
-    "value": "new"
+    "value": "existing"
   },
   "virtualNetworkName": {
-    "value": "VirtualNetwork"
+    "value": "EXT-VNET"
   },
   "addressPrefixes": {
     "value": [
-      "10.5.0.0/16"
+      "10.0.0.0/16"
     ]
   },
   "subnetName": {
-    "value": "Subnet-1"
+    "value": "ext-subnet1"
   },
   "subnetPrefix": {
-    "value": "10.5.0.0/24"
+    "value": "10.0.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "EAP72-RHEL8-byos-Soln-Test-Rg1"
+    "value": "Pre-req-env-soln-test-Rg1"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "jbosseap72-rhel8-byos-vm1-ip"
+    "value": "eap72-rhel8-pip1"
   },
   "publicIpDns": {
-    "value": "jbosseap72-rhel8-byos-vm1-40aadf1ec0"
+    "value": "eap72-rhel8-vm5-a8e91fe1c4"
   },
   "publicIpResourceGroupName": {
-    "value": "EAP72-RHEL8-byos-Soln-Test-Rg1"
+    "value": "EAP72-RHEL8-byos-Soln-Test-Rg5"
   },
   "publicIPAllocationMethod": {
-    "value": "Dynamic"
+    "value": "Static"
+  },
+  "publicIpSku": {
+    "value": "Standard"
   },
   "bootDiagnostics": {
     "value": "On"
@@ -59,7 +62,7 @@
     "value": "new"
   },
   "storageAccountName": {
-    "value": "jbosseapb3024d1f95"
+    "value": "eap72rhdiaged"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
