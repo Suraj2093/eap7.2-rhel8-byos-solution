@@ -1,9 +1,9 @@
 {
   "location": {
-    "value": "westus2"
+    "value": "eastus"
   },
   "vmName": {
-    "value": "eap72-rhel8-byos-soln-vm5"
+    "value": "EAP72-RHEL8-byos-VM1"
   },
   "adminUsername": {
     "value": "demouser"
@@ -15,45 +15,42 @@
     "value": "demoPassword1!"
   },
   "vmSize": {
-    "value": "Standard_E2s_v4"
+    "value": "Standard_DS2_v2"
   },
   "virtualNetworkNewOrExisting": {
-    "value": "existing"
+    "value": "new"
   },
   "virtualNetworkName": {
-    "value": "EXT-VNET"
+    "value": "VirtualNetwork"
   },
   "addressPrefixes": {
     "value": [
-      "10.0.0.0/16"
+      "10.9.0.0/16"
     ]
   },
   "subnetName": {
-    "value": "ext-subnet1"
+    "value": "Subnet-1"
   },
   "subnetPrefix": {
-    "value": "10.0.0.0/24"
+    "value": "10.9.0.0/24"
   },
   "virtualNetworkResourceGroupName": {
-    "value": "Pre-req-env-soln-test-Rg1"
+    "value": "EAP72-RHEL8-byos-Soln-Test-Rg1"
   },
   "publicIpNewOrExisting": {
     "value": "new"
   },
   "publicIpName": {
-    "value": "eap72-rhel8-pip1"
+    "value": "EAP72-RHEL8-byos-VM1-ip"
   },
   "publicIpDns": {
-    "value": "eap72-rhel8-vm5-a8e91fe1c4"
+    "value": "eap72-rhel8-byos-vm1-f71eb431a7"
   },
   "publicIpResourceGroupName": {
-    "value": "EAP72-RHEL8-byos-Soln-Test-Rg5"
+    "value": "EAP72-RHEL8-byos-Soln-Test-Rg1"
   },
   "publicIPAllocationMethod": {
-    "value": "Static"
-  },
-  "publicIpSku": {
-    "value": "Standard"
+    "value": "Dynamic"
   },
   "bootDiagnostics": {
     "value": "On"
@@ -62,7 +59,7 @@
     "value": "new"
   },
   "storageAccountName": {
-    "value": "eap72rhdiaged"
+    "value": "eap72rheac618eb6a3"
   },
   "storageAccountType": {
     "value": "Standard_LRS"
